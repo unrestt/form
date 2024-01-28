@@ -1,1 +1,1 @@
-# form
+A web form project using HTML, CSS, and JavaScript. It was created drawing inspiration from several projects and personal creative flair. The form features validation for all input data and has an appealing design.
