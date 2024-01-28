@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <h1>Form</h1>
+  <div class="column">
+    <form method="POST" class="form login">
+
+      <div class="form__field">
+        <label for="login__username"><i class="fas fa-user"></i></label>
+        <input autocomplete="given-name" id="username" type="text" name="username" class="form__input" placeholder="Username" required>
+      </div>
+
+      <div class="form__field">
+        <label for="login__username"><i class="fas fa-user"></i></label>
+        <input autocomplete="family-name" id="Surname" type="text" name="username" class="form__input" placeholder="Surname" required>
+      </div>
+      
+      <div class="form__field">
+        <label for="login__username"><i class="fa-solid fa-calendar-days"></i></label>
+        <input autocomplete="bday-year" id="calendar" type="text" name="username" class="form__input" placeholder="dd/mm/yyyy" required>
+      </div>
+      
+      <div class="form__field">
+        <label for="login__username"><i class="fa-solid fa-envelope"></i></label>
+        <input autocomplete="email" type="text" name="username" class="form__input" placeholder="Email" id="email" required>
+      </div>
+      
+      <div class="form__field password">
+        <label for="login__password"><i class="fas fa-lock"></i></label>
+        <input type="password" name="password" id="password" class="form__input" placeholder="Password" required>
+        <i class="fa-solid fa-eye-slash" id="show-password"></i>
+      </div>
+      
+      <div class="form__field">
+        <label for="login__username"><i class="fa-solid fa-house"></i></label>
+        <input autocomplete="street-address" type="text" name="username" class="form__input" placeholder="Adress" id="address" required>
+      </div>
+
+      <div class="form__field">
+        <label for="login__username"><i class="fa-solid fa-house"></i></label>
+        <input autocomplete="postal-code" id="zipcode" type="text" name="username" class="form__input" placeholder="Zip code" required>
+      </div>
+      <div class="ressub">
+        <input type="reset" value="Reset">
+        <input type="button" value="Check">
+        <input type="submit" value="Submit">
+      </div>
+      
+    </form>
+    <div class="check-info">
+      <i class="fa-solid fa-xmark"></i>
+      <i class="fa-solid fa-xmark"></i>
+      <i class="fa-solid fa-xmark"></i>
+      <i class="fa-solid fa-xmark"></i>
+      <i class="fa-solid fa-xmark"></i>
+      <i class="fa-solid fa-xmark"></i>
+      <i class="fa-solid fa-xmark"></i>
+    </div>
+    <div class="progressbar-background">
+      <div class="progressbar">
+        
+      </div>
+      <div class="password-texts">
+        <div class="password-text-field">
+          <i class="fa-solid fa-circle"></i>
+          <p id="password-text-1"></p>
+        </div>
+        <div class="password-text-field">
+          <i class="fa-solid fa-circle"></i>
+          <p id="password-text-2"></p>
+        </div>
+        <div class="password-text-field">
+          <i class="fa-solid fa-circle"></i>
+          <p id="password-text-3"></p>
+        </div>
+        <div class="password-text-field">
+          <i class="fa-solid fa-circle"></i>
+          <p id="password-text-4"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
